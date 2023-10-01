@@ -25,8 +25,9 @@ ul, ol {
 	list-style-type: none;
 }
 h2 {
-    color:var(--main-color);
+    color: var(--main-color);
 }
+/* Header section */
 .header-nav {
 }
 .header-logo { 
@@ -82,6 +83,7 @@ color: var(--text-color);
   color: var(--pressed-state-color);
     
 }
+/* Hero section */
 .hero {
 background-color: var(--main-color);
 color: var(--white-background-color);
@@ -109,10 +111,11 @@ cursor: pointer;
 .hero-btn:active {
     background-color: var(--pressed-state-color);
 }
+/* About section */
 .about {
 }
 .about-hidden {
-    color: var(--main-color);
+color: var(--main-color);
 }
 .about-list {
 }
@@ -129,7 +132,6 @@ font-weight: 400;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: var(--text-color);
-
 }
 .text {
 color: var(--text-color)
@@ -137,6 +139,7 @@ color: var(--text-color)
 .about-note-text {
 
 }
+/* Team section */
 .team {
 background-color: var(--light-color);
 }
@@ -147,7 +150,7 @@ line-height: 1.11;
 letter-spacing: 0.02em;
 text-align: center;
 text-transform: capitalize;
-color:var(--main-color);
+color: var(--main-color);
 }
 .team-list {}
 .team-card {
@@ -156,9 +159,9 @@ color:var(--main-color);
 .team-member-title {
 font-size: 20px;
 font-weight: 500;
-line-height: 1.2    ;
+line-height: 1.2;
 letter-spacing: 0.02em;
-color:var(--main-color);
+color: var(--main-color);
 }
 .team-card-text {
 font-size: 16px;
@@ -188,25 +191,23 @@ letter-spacing: 0.02em;
 .portfolio-image {
 }
 .portfolio-project-title {
-    color: var(--main-color);
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    font-weight: 500;
+color: var(--main-color);
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+font-weight: 500;
 }
 .portfolio-project-note {
-    color: var(--text-color);
+color: var(--text-color);
 font-size: 16px;
 font-weight: 400;
 line-height: 1.5;
 letter-spacing: 0.02em;
-text-align: center;
-
 }
 /*** Footer section ***/
 .footer-section {
-    color: var(--light-color);
-    background-color: var(--main-color);
+color: var(--light-color);
+background-color: var(--main-color);
 }
 .footer-logo {
 color: var(--primary-brand-color);
